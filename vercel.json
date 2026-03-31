@@ -1,1 +1,4 @@
 {"version": 2, "buildCommand": "echo 'Static files ready'", "outputDirectory": ".", "rewrites": [{"source": "/pay/:slug*", "destination": "https://talkweave-pro.lovable.app/pay/:slug*"}], "headers": [{"source": "/(.*)", "headers": [{"key": "X-Frame-Options", "value": "DENY"}, {"key": "X-Content-Type-Options", "value": "nosniff"}]}]}
+
+git commit --allow-empty -m "trigger deploy"
+git push origin main
