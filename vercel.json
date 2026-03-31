@@ -1,1 +1,1 @@
-{"version": 2,"builds": [{"src": "index.html","use": "vercel/static"}]}
+{"rewrites": [{"source": "/pay/:slug*", "destination": "https://talkweave-pro.lovable.app/pay/:slug*"}], "headers": [{"source": "/(.*)", "headers": [{"key": "X-Frame-Options", "value": "DENY"},{"key": "X-Content-Type-Options", "value": "nosniff"}]}]}
